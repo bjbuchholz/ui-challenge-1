@@ -1,0 +1,135 @@
+#container{
+    display: flex;
+    flex-direction:column
+}
+
+#a{
+    
+    background:rgb(236, 29, 15);
+    height: 75px;
+}
+#b{
+    background:rgb(26, 11, 238);
+    height: 150px;
+}
+#c{
+
+    background:rgb(198, 226, 43);
+    height: 125px;
+}
+#d{
+   
+    background:rgb(30, 210, 39);
+    height: 125px;
+}
+#e{
+   
+    background:rgb(0, 204, 255);
+    height: 250px;
+    flex-grow: 1;
+}
+#f{
+  
+    background:rgb(241, 119, 5);
+    flex-grow: 1;
+    height: 250px;
+
+}
+#g{
+    
+    background:rgb(220, 20, 187);
+    flex-grow: 1;
+    height: 250px;
+}
+#h{
+   
+    background:rgb(111, 3, 235);
+    flex-grow: 1;
+    height: 250px;
+}
+#i{
+   
+    background:rgb(0, 167, 144);
+    height: 80px;
+}
+#efgh{
+    
+}
+#ef{
+    flex-direction: row;
+    display: flex;
+    
+}
+#gh{
+    flex-direction: row;
+    display: flex;
+}
+@media screen and (min-width: 800px) {
+    body{
+        max-width: 960px;
+        margin: auto;
+        display: flex;
+    }
+    #b-i{
+        flex-direction:row;
+        display: flex;
+    }
+    #c-i{
+        display: flex;
+      
+        flex-direction: column;
+    }
+    #efgh{
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+    }
+    #cd{
+        flex-direction: row;
+        display: flex;
+        width: 100%;
+    }
+    #a{
+        height: 100px;
+        width: 100%;
+
+    }
+    #b{
+        height: 600px;
+        width: 200px;
+    }
+    #c{
+        height: 200px;
+        width: 380px;
+        flex-grow: 1;
+    }
+    #d {
+        height: 200px;
+        width: 380px;
+        flex-grow: 1;
+    }
+    #e{
+        height: 250px;
+        width: 190px;
+        flex-grow: 1;
+    }
+    #f{
+       height: 250px;
+       width: 190px; 
+       flex-grow: 1;
+    }
+    #g{
+        height: 250px;
+        width: 190px;
+        flex-grow: 1;
+    }
+    #h{
+        height: 250px;
+        width: 190px;
+        flex-grow: 1;
+    }
+    #i{
+        width: 100%;
+        height: 150px;
+    }
+}
